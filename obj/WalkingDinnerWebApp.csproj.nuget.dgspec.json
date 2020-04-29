@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UnoriginalBapple\\source\\repos\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj": {}
+    "C:\\Users\\UnoriginalBapple\\Documents\\GitHub\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UnoriginalBapple\\source\\repos\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj": {
+    "C:\\Users\\UnoriginalBapple\\Documents\\GitHub\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UnoriginalBapple\\source\\repos\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\UnoriginalBapple\\Documents\\GitHub\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj",
         "projectName": "WalkingDinnerWebApp",
-        "projectPath": "C:\\Users\\UnoriginalBapple\\source\\repos\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj",
+        "projectPath": "C:\\Users\\UnoriginalBapple\\Documents\\GitHub\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj",
         "packagesPath": "C:\\Users\\UnoriginalBapple\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UnoriginalBapple\\source\\repos\\WalkingDinnerWebApp\\obj\\",
+        "outputPath": "C:\\Users\\UnoriginalBapple\\Documents\\GitHub\\WalkingDinnerWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

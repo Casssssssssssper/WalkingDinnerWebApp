@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZGS8qf9thnpyCb+8xop6Iaac+n7+1HU8437YDSQWMF+i19dUxlSrdGvF5M0e2xdBbvl2XfguGVFeJ2hiyNcwHw==",
+  "dgSpecHash": "BjxvuBdSeAGDutU6NvragmL7fpnM8AbiKphUBXyKGwg2LynNk0+PHJAw1dB1s037vBbN+2AkB9hpe4i4JGqHVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UnoriginalBapple\\source\\repos\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj",
+  "projectFilePath": "C:\\Users\\UnoriginalBapple\\Documents\\GitHub\\WalkingDinnerWebApp\\WalkingDinnerWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UnoriginalBapple\\.nuget\\packages\\bootstrap\\4.4.1\\bootstrap.4.4.1.nupkg.sha512",
     "C:\\Users\\UnoriginalBapple\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",

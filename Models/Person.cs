@@ -19,17 +19,16 @@ namespace WalkingDinnerWebApp.Models
             KoudVoorgerecht,
             WarmVoorgerecht,
             Hoofdgerecht,
-            Dessert,
-            Zoetigheden
+            Dessert            
         }
 
         internal string StreetName { get; set; }
         internal int HouseNumber { get; set; }
         internal string PostCode { get; set; }
-        internal string Country { get; set; }
+        
         internal string Email { get; set; }
         public int PhoneNumber { get; set; }
-        public string dieetWensen { get; set; }
+        public string DietWishes { get; set; }
         public string ZipCode { get; set; }
         
        
