@@ -3,23 +3,108 @@
 }
 
     <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        
-            <form class="form-signin">
-                <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-                <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-                <label for="inputEmail" class="sr-only">Email address</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
-            </form>
-        
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <!--<h1 class="display-2">Welcome to our Walking Dinner</h1>-->
+
+        <form class="col-auto form-signin">
+
+
+            <div class="form-group align-content-lg-center">
+                <label for="InputName" class="sr-only">Vul hier uw naam in</label>
+                <input id="FirstName" class="col-auto form-control" placeholder="Voornaam" required>
+                <input id="MiddleName" class="col-auto form-control" placeholder="Tussenvoegsel">
+                <input id="LastName" class="col-auto form-control" placeholder="Achternaam" required>
+
+                <label for="exampleFormControlInput1">E-mail addres</label>
+                <input type="email" class="col-auto form-control" id="EmailAdress" placeholder="name@example.com">
+                <label for="exampleFormControlInput1">Telefoon nummer</label>
+                <input type="number" class="col-auto form-control" id="PhoneNumber" placeholder="">
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="SelectingDishToPrepare">Kies hieronder het gerecht wat jullie willen berijden</label>
+                <select class="form-control" id="SelectToPrepare">
+                    <option>Koud Voorgerecht</option>
+                    <option>Warm Voorgerecht</option>
+                    <option>Hoofdgerecht</option>
+                    <option>Nagerecht</option>
+                </select>
+            </div>
+
+            <div class="form-group align-content-lg-center">
+                <label for="InputAdress" class="sr-only">Vul hier uw adress in</label>
+                <input id="Country" class="form-control" placeholder="Plaats">
+                <input id="PostCode" type="number" class="form-control" placeholder="Postcode">
+                <input id="Street" class="form-control" placeholder="Straat">
+                <input id="HouseNumber" type="number" class="form-control" placeholder="Huisnummer">
+            </div>
+
+            <div class="form-group">
+                <label for="Textarea">Hier kan je achterlaten of je nog allergiën hebt zodat wij daar rekening mee kunnen houden </label>
+                <textarea class="form-control" id="TextArea" rows="4"></textarea>
+            </div>
+
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Add a New person</button>
+            <small id="AddnewPersonBlock" class="form-text text-muted">
+                Wanneer je op de knop klikt dan word dit formulier opgeslagen
+            </small>
+
+
+            <!-- Misschien betere code, dit moet ik nog bespreken  -->
+            <!--
+
+                <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+
+
+                -->
+        </form>
+
+
     </div>
