@@ -9,15 +9,10 @@ namespace WalkingDinnerWebApp.Models
 {
     public class Course
     {
-        
-       
         public int GroupSize { get; set; }
       
+        public int MaxPeople { get; set; }
         public int MaxCouples { get; set; }
-       
-
-
-
     }
 
    

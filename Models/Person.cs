@@ -7,14 +7,14 @@ namespace WalkingDinnerWebApp.Models
 {
     public class Person
     {
-        public int Id { get; set; }
-        public string firstName { get; set; }
-        public string tussenVoegsel { get; set; }
-        public string achterNaam { get; set; }
+        internal int Id { get; set; }
+        internal string firstName { get; set; }
+        internal string tussenVoegsel { get; set; }
+        internal string lastName { get; set; }
 
 
 
-        enum VoorkeurBereidingGerecht
+        enum PreferableDish
         {
             KoudVoorgerecht,
             WarmVoorgerecht,
@@ -27,9 +27,9 @@ namespace WalkingDinnerWebApp.Models
         internal string PostCode { get; set; }
         
         internal string Email { get; set; }
-        public int PhoneNumber { get; set; }
-        public string DietWishes { get; set; }
-        public string ZipCode { get; set; }
+        internal int PhoneNumber { get; set; }
+        internal string DietWishes { get; set; }
+        internal string ZipCode { get; set; }
         
        
     }
